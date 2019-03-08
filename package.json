@@ -1,0 +1,16 @@
+{
+  "name": "dataset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "off-download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "fs-extra": "^7.0.1",
+    "request": "^2.88.0"
+  }
+}
