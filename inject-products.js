@@ -22,7 +22,7 @@ fs.readFile('products.json', (err, data) => {
                 request.post({
                     url: 'http://localhost:8888/add',
                     formData: formData
-                }, function(errorLoopCall, responseLoopCall, bodyLoopCall) {
+                }, function (errorLoopCall, responseLoopCall, bodyLoopCall) {
                     if (err) {
                         console.error('upload failed:', err);
                     } else {
